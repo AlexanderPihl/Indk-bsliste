@@ -13,6 +13,17 @@
 <body>
 
 Welkommen til din online indkøbsliste!
+<br>
+
+
+<form action="LoginServlet" mehtod="post">
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="Navn"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="Kodeord"><br><br>
+    <input type="submit" value="Login">
+</form>
+
 
 </body>
 </html>
